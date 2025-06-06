@@ -1,3 +1,5 @@
+import 'package:adv_flutter/mvc/view/lab2/fav_unfav_view_1.dart';
+import 'package:adv_flutter/mvc/view/lab2/form_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -31,7 +33,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      debugShowCheckedModeBanner: false,
+      home: SignUpFormView(),
     );
   }
 }
