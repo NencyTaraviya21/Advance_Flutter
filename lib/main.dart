@@ -1,5 +1,6 @@
-import 'package:adv_flutter/mvc/view/lab2/fav_unfav_view_1.dart';
-import 'package:adv_flutter/mvc/view/lab2/form_view.dart';
+
+import 'package:adv_flutter/import_export/import_export.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: SignUpFormView(),
+      home: EcomerceView(),
     );
   }
 }
