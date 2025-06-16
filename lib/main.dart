@@ -1,9 +1,6 @@
 
 import 'package:adv_flutter/import_export/import_export.dart';
 
-
-import 'package:flutter/material.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -36,7 +33,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: PersonView(),
+      home: ProductsPageView(),
     );
   }
 }

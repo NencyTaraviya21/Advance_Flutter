@@ -1,6 +1,6 @@
 import 'package:adv_flutter/import_export/import_export.dart';
 
-class EcomerceController {
+class ECommerceProductController  {
   List<EcomerceModel> products = [
     EcomerceModel(
         product_name:
@@ -51,5 +51,18 @@ class EcomerceController {
         price: 800,
         isFav: false),
   ];
-  List<EcomerceModel> cartItems = [];
+  static List<EcomerceModel> cartItems = [];
+  List<EcomerceModel> get product => products;
+
+  void addItemsToCart(EcomerceModel product){
+    cartItems.add(product);
+  }
+  void removeItemFromCart(EcomerceModel product) {
+    int index = cartItems.indexWhere((element) => element == product);
+    cartItems.removeAt(index);
+  }
+
+  bool isCartEmpty(){
+    return cartItems.isEmpty;
+  }
 }
