@@ -32,7 +32,8 @@ dependencies:
     sdk: flutter
   google_fonts: ^6.2.1
   sqflite:
-  path: 
+  path:
+  get:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -72,11 +73,6 @@ flutter:
     - lib/assets/image_assets/dove_scrub4.jpeg
     - lib/assets/image_assets/profile_photo.jpg
 
-  # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/to/resolution-aware-images
-
-  # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/to/asset-from-package
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
