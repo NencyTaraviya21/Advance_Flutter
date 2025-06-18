@@ -14,3 +14,5 @@ export 'package:adv_flutter/utils/strings.dart';
 export 'package:adv_flutter/mvc/controller/lab4/getx_dialogue_box_controller_1.dart';
 export 'package:google_fonts/google_fonts.dart';
 export 'package:adv_flutter/mvc/view/lab2/profile_card_view.dart';
+export 'package:adv_flutter/mvc/controller/lab2/profile_card_controller.dart';
+export 'package:adv_flutter/mvc/model/lab2/profile_card_model.dart';
