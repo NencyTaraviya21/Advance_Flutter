@@ -1,10 +1,9 @@
+import 'package:adv_flutter/import_export/import_export.dart';
 
+class DialogGetxController extends GetxController {
+  RxList<String> a = <String>[].obs;
 
-import 'package:get/get.dart';
-
-class dialogGetxController extends GetxController{
-  RxList<dynamic> a = [].obs;
-  void increment(){
-
+  void increment() {
+    a.add("Nency");
   }
 }
