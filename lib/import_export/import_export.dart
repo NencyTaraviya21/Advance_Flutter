@@ -17,3 +17,7 @@ export 'package:adv_flutter/mvc/view/lab2/profile_card_view.dart';
 export 'package:adv_flutter/mvc/controller/lab2/profile_card_controller.dart';
 export 'package:adv_flutter/mvc/model/lab2/profile_card_model.dart';
 export 'package:get/get.dart' hide HeaderValue;
+export 'package:adv_flutter/mvc/controller/lab5/navigate_pass_data_controller.dart';
+export 'package:adv_flutter/mvc/view/lab2/form_view.dart';
+export 'package:adv_flutter/mvc/model/lab5/navigate_pass_data_model.dart';
+export 'package:adv_flutter/mvc/view/lab4/getx_dialogue_box_view_1.dart';

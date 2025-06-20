@@ -1,6 +1,7 @@
 
 import 'package:adv_flutter/import_export/import_export.dart';
 import 'package:adv_flutter/mvc/view/lab4/getx_dialogue_box_view_1.dart';
+import 'package:adv_flutter/mvc/view/lab5/navigate_pass_data_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: GetxDialogBox(),
+      home: NavigatePassDataView(),
     );
   }
 }
