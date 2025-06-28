@@ -1,0 +1,73 @@
+To-Do List app using Pomodoro Timer----
+
+
+--> Task management.
+
+Add a new task 		(title, optional description, priority, due date)
+View task list 		(pending, completed)
+Edit a task
+Mark task as completed
+Delete task
+Progress tracker
+
+
+
+--> Pomodoro timer.
+
+
+Start a Pomodoro session (25 minutes)
+Automatically switch to short break (5 minutes)
+After 4 Pomodoros, start long break (15 minutes)
+Start Pomodoro timer for a specific task
+Pomodoro Timer Widget
+Current Task Display
+Timer Control Buttons(Start, Pause, Reset)
+Session Tracker (Pomodoro Count Today)
+Session Type
+Daily Streak
+Mini Pomodoro Log Widget (list of completed pomodoro today)
+
+
+
+--> screens
+
+1. Splash Screen
+2. Dashboard Screen - Main screen showing timer, task overview, progress, session controls, flagged task, reminders.
+3. Task List Screen - 	View, add, edit, delete tasks
+4.  Add/Edit Task Screen
+5. Pomodoro History Screen
+6.  Statistics Screen
+7.  Settings Screen
+8. Login screen
+9. Registration screen
+
+
+--> Task data fields
+
+int		 			id,
+String 				title , 
+String 				description , 
+String				priority,
+Datetime 			deadline, 
+int 					estimatedPomodoros, 
+int 					completedPomodoros, 
+bool 				isCompleted
+
+
+--> Pomodoro sessions
+
+int 					id, 
+int 					taskId, 
+datetime 			startTime, 
+datetime 			endTime, 
+bool 				type (work/break), 
+bool 				wasCompleted
+
+
+
+
+
+--long term goal
+
+Notifications
+Focus Mode Switch

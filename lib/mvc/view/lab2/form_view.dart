@@ -1,5 +1,5 @@
-import 'package:adv_flutter/mvc/controller/lab2/form_controller.dart';
-import 'package:flutter/material.dart';
+import 'package:adv_flutter/import_export/import_export.dart';
+
 
 class SignUpFormView extends StatefulWidget {
   const SignUpFormView({super.key});
@@ -19,7 +19,7 @@ class _SignUpFormViewState extends State<SignUpFormView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title:Text('SignUp form') ,),
+      appBar: AppBar(title:Text(APPBAR_SIGNUP_FORM) ,),
       body: Form(
         key: _formkey ,
         child: Column(

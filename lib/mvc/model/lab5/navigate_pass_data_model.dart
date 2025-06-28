@@ -1,6 +1,7 @@
 class NavigatePassDataModel{
   String? _name;
   String? get name => _name;
+
   set name(String ? value){
     _name = value;
   }
@@ -12,8 +13,9 @@ class NavigatePassDataModel{
   set enrollment(String ? value) {
     _enrollment = value;
   }
-NavigatePassDataModel({
-    required name,
+
+  NavigatePassDataModel({
+  required name,
   required enrollment
 });
 }
