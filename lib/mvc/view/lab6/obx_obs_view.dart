@@ -1,5 +1,5 @@
 import 'package:adv_flutter/import_export/import_export.dart';
-import 'package:adv_flutter/mvc/controller/lab6/obx_obs_controller.dart';
+
 
 class ObxObsView extends StatelessWidget {
   ObxObsView({super.key});
@@ -9,7 +9,7 @@ class ObxObsView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text(APPBAR_OBX_OBS_DEMO,style: TextStyle(fontSize: 30, color: Colors.blue.shade900))),
+        title: Center(child: Text(APPBAR_OBX_OBS_DEMO, style: TextStyle(fontSize: 30, color: Colors.blue.shade900))),
       ),
       body: Center(
           child: Obx(() => Text(
