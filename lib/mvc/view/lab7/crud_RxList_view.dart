@@ -1,6 +1,5 @@
 import 'package:adv_flutter/import_export/import_export.dart';
-import 'package:adv_flutter/mvc/controller/lab7/crud_RxList_controller.dart';
-import 'package:adv_flutter/mvc/view/lab7/add_customer_page.dart';
+
 
 class RxListCrudView extends StatelessWidget {
   RxListCrudView({super.key});
@@ -21,7 +20,7 @@ class RxListCrudView extends StatelessWidget {
                   width: 30,
                 ),
                 Expanded(
-                    child: Obx(() =>
+                    child: Obx(()=>
                         TextFormField(
                             controller: controller.searchController,
                             decoration: InputDecoration(
@@ -43,7 +42,6 @@ class RxListCrudView extends StatelessWidget {
                               ),
                             )))
                 ),
-
               ],
             ),
           ),

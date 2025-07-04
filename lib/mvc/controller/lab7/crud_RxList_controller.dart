@@ -29,8 +29,8 @@ class RxListContoller extends GetxController {
 
   void updateCustomer(int index) {
    customer_list[index]={"name":nameController.text,"price":priceController.text};
-    customer_list.refresh();
-    getCustomer();
+   customer_list.refresh();
+   getCustomer();
   }
 
   void searchCustomer(dynamic search){
