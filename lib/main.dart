@@ -1,9 +1,6 @@
 
 import 'package:adv_flutter/import_export/import_export.dart';
-
-
-
-
+import 'package:adv_flutter/mvc/view/lab11/display_user_view.dart';
 
 
 void main() {
@@ -23,7 +20,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: RxListCrudView(),
+      home: DisplayUsersView(),
     );
   }
 }

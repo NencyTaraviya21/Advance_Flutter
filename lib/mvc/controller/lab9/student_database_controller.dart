@@ -21,7 +21,7 @@ Future<void> addStudent({name}) async{
 }
 
 Future<void> getStudentList(){
-  stuRepo.getStudent();
+   return stuRepo.getStudent();
 }
 
 }

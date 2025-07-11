@@ -13,7 +13,12 @@ const String APPBAR_OBX_OBS_DEMO = 'Obx Obs Demo';
 //endregion
 
 //region DATABASE CONSTANTS
-const String DB_NAME = '/Student.db';
+const String DB_STUDENT = '/Student.db';
+const String DB_CUSTOMER = '/Customer.db';
 const String TABLE_STUDENT = 'TBL_Student';
-const String COL_STUDENT_ID = 'Col_Id';
+const String TABLE_CUSTOMER = 'TBL_Customer';
+const String COL_CUSTOMER_ID = 'Col_Customer_Id';
+const String COL_STUDENT_ID = 'Col_Student_Id';
 const String COL_STUDENT_NAME = 'Col_Unsername';
+const String COL_CUSTOMER_NAME = 'Col_Customername';
+//endregion

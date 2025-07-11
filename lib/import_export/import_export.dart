@@ -39,3 +39,8 @@ export 'package:adv_flutter/mvc/model/lab9/student_database_model_class.dart';
 export 'package:adv_flutter/database/database_service.dart';
 export 'package:adv_flutter/database/my_database.dart';
 export 'package:adv_flutter/database/student_repo.dart';
+export 'package:adv_flutter/mvc/model/lab10/database_getx_model.dart';
+export 'package:adv_flutter/database/customer_repo.dart';
+export 'package:adv_flutter/api_services/user_api_services.dart';
+export 'package:adv_flutter/mvc/model/lab11/user_model.dart';
+export 'package:adv_flutter/mvc/controller/lab11/user_controller_11.dart';
